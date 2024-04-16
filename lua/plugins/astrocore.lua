@@ -34,6 +34,7 @@ return {
         wrap = false, -- sets vim.opt.wrap
         shiftwidth = 2,
         tabstop = 2,
+        scrolloff = 10,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
@@ -72,6 +73,14 @@ return {
         ["<Leader>b"] = { desc = "Buffers" },
         -- quick save
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+      },
+      i = {
+        ["jk"] = {
+          "<esc>",
+        },
+        ["kj"] = {
+          "<esc>",
+        },
       },
       t = {
         -- setting a mapping to false will disable it
