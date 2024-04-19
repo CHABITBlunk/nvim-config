@@ -35,6 +35,7 @@ return {
         shiftwidth = 2,
         tabstop = 2,
         scrolloff = 10,
+        mouse = "",
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
