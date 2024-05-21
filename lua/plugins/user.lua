@@ -40,7 +40,7 @@ return {
   },
 
   -- colorscheme
-  "rebelot/kanagawa.nvim",
+  "projekt0n/github-nvim-theme",
 
   -- jdtls
   {
