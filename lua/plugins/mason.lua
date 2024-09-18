@@ -16,7 +16,6 @@ return {
         "emmet_ls",
         "cssls",
         "html",
-        "tsserver",
         "pyright",
         "bashls",
         "jdtls",
