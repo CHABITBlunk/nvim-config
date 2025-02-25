@@ -18,6 +18,7 @@ return {
         "html",
         "pyright",
         "bashls",
+        "java_language_server",
         "jdtls",
         "jsonls",
         "rust_analyzer",
