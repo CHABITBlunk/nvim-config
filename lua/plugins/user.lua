@@ -42,17 +42,6 @@ return {
   -- colorscheme
   "rebelot/kanagawa.nvim",
 
-  -- jdtls
-  {
-    "mfussenegger/nvim-jdtls",
-    {
-      "williamboman/mason-lspconfig.nvim",
-      opts = {
-        ensure_installed = { "jdtls" },
-      },
-    },
-  },
-
   -- yuck plugin
   {
     "elkowar/yuck.vim",
