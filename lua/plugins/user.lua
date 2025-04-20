@@ -42,17 +42,6 @@ return {
   -- colorscheme
   { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
 
-  -- jdtls
-  {
-    "mfussenegger/nvim-jdtls",
-    {
-      "williamboman/mason-lspconfig.nvim",
-      opts = {
-        ensure_installed = { "jdtls" },
-      },
-    },
-  },
-
   -- yuck plugin
   {
     "elkowar/yuck.vim",
