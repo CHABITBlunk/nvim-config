@@ -23,7 +23,9 @@ return {
     diagnostics = {
       virtual_text = true,
       underline = true,
-    },
+  { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.rust" },  },
     -- vim options can be configured here
     options = {
       opt = { -- vim.opt.<key>
