@@ -5,6 +5,8 @@
 ---@type LazySpec
 return {
   "nvimtools/none-ls.nvim",
+  commit= "bb680d752cec37949faca7a1f509e2fe67ab418a",
+  pin = true,
   opts = function(_, config)
     -- config variable is the default configuration table for the setup function call
     local null_ls = require "null-ls"
